@@ -4,20 +4,48 @@
 | `PHP`     |
 
 ## Description
-For a given input `n`, print a diamond like form with each vertices being of length `n` and its total height `n * 2 - 1`.  
+For a given input `n`, print a diamond with the following rules:
+- diamond height is equal to `n * 2 - 1`
+- diamond has `n - 1` levels (or rows) above its middle
+- diamond has `n - 1` levels (or rows) below its middlle
+- from top to middle, for each level, the width increases by `2`, starting at `1`
+- from bottom to middle, for each level, the width increases by `2`, starting at `1`
 
 e.g:
-For `n` is `5`, the following is output (spaces being replaced by `=` for readability):
+- for `n` is `5`:
 ```
-====*
-===***
-==*****
-=*******
+    *
+   ***
+  *****
+ *******
 *********
-=*******
-==*****
-===***
-====*
+ *******
+  *****
+   ***
+    *
+```
+
+- for `n` is `10`:
+```
+         *
+        ***
+       *****
+      *******
+     *********
+    ***********
+   *************
+  ***************
+ *****************
+*******************
+ *****************
+  ***************
+   *************
+    ***********
+     *********
+      *******
+       *****
+        ***
+         *
 ```
 
 ## Sources
