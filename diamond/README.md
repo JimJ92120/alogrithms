@@ -4,7 +4,7 @@
 | `PHP`     |
 
 ## Description
-For a given input `n`, print a diamon like form with each vertices being of length `n`.  
+For a given input `n`, print a diamond like form with each vertices being of length `n`.  
 
 e.g:
 For `n` is `5`, the following is output (spaces being replaced by `=` for readability):
