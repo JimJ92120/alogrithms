@@ -1,7 +1,8 @@
 # xmas-tree
-| Languages |
-|-----------|
-| `PHP`     |
+| Languages    |
+|--------------|
+| `PHP`        |
+| `JavaScript` |
 
 ## Description
 For a given input `n`, print a Christmas tree with the following rules:
